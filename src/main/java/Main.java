@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         Post post = new Post();
+
         post.name = "Александр";
         post.surname = "Першиков";
         post.patronymic = "Игоревич";
@@ -13,7 +14,6 @@ public class Main {
         post.birthday.date = 01;
         post.birthday.month = 02;
         post.birthday.year = 1990;
-
 
     }
 }
